@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+     <h1>🍽️ Restaurant Manager</h1>
+
+     <form id="restaurantForm">
+      <input type="text" id="name" placeholder="Restaurant Name" required />
+      <input type="text" id="borough" placeholder="Borough" required />
+      <input type="text" id="cuisine" placeholder="Cuisine" required />
+      <input type="text" id="restaurant_id" placeholder="Restaurant ID (optional)" />
+      <button type="submit">➕ Add Restaurant</button>
+     </form>
+
+     <h2>📋 Restaurant List</h2>
+     <ul id="restaurantList"></ul>
+   </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
