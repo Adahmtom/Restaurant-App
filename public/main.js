@@ -4,7 +4,7 @@
  *  * Name: AHMAD ADEBOYE Student ID: N01655680 &   ** Name: MEENAKASHI DEVI Student ID: N01663549 Date: APRIL 9TH, 2025
  ***************************************/
 
-const API_URL = "/api/restaurants";
+const API_URL = "https://restaurant-app-lvd8.onrender.com/api/restaurants";
 const form = document.getElementById("restaurantForm");
 const list = document.getElementById("restaurantList");
 
